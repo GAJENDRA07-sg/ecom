@@ -1,6 +1,6 @@
 import React from "react";
 import "./TestimonialStyles.css";
-// import Img from "../assets/ellipse-1.png";
+import Img from "../../..//assets/ellipse-1.png";
 
 const Testimonial = () => {
   return (
@@ -19,7 +19,7 @@ const Testimonial = () => {
       <div className="testimonial-card-container">
         <div className="testimonial-card">
           <div className="testimonial-upper">
-            {/* <img src={Img} /> */}
+            <img src={Img} />
             <div>
               <h6>SUJATA GIRDHARI</h6>
               <p>Banglore</p>
@@ -34,7 +34,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonial-card">
           <div className="testimonial-upper">
-            {/* <img src={Img} /> */}
+            <img src={Img} />
             <div>
               <h6>SUJATA GIRDHARI</h6>
               <p>Banglore</p>
@@ -49,7 +49,7 @@ const Testimonial = () => {
         </div>
         <div className="testimonial-card">
           <div className="testimonial-upper">
-            {/* <img src={Img} /> */}
+            <img src={Img} />
             <div>
               <h6>SUJATA GIRDHARI</h6>
               <p>Banglore</p>

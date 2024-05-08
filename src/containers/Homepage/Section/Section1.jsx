@@ -1,6 +1,6 @@
 import React from "react";
 import "./Section1Styles.css";
-// import Img from "../public/image";
+import Img from "../../..//assets/frame-27.png";
 
 const Section1 = () => {
   return (
@@ -15,10 +15,10 @@ const Section1 = () => {
           mission is to provide innovative solutions that empower individuals
           and communities to live sustain
         </p>
-        <button className="">Button Primary</button>
+        <button className="" style={{padding: "10px"}}>Button Primary</button>
       </div>
       <div className="right">
-        {/* <img src={Img} /> */}
+        <img src={Img} />
       </div>
     </div>
   );

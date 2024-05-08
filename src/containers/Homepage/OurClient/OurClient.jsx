@@ -1,5 +1,5 @@
 import React from 'react'
-// import Img from '../assets/frame-341-18.png'
+import Img from '../../..//assets/frame-27.png'
 import './OurClientStyles.css';
 
 const OurClient = () => {
@@ -8,19 +8,19 @@ const OurClient = () => {
         <h3>Our Clients</h3>
         <div className='card-container'>
             <div className='client-card'>
-                {/* <img src={Img}></img> */}
+                <img src={Img}></img>
                 <p>Parle Industries</p>
             </div>
             <div className='client-card'>
-                {/* <img src={Img}></img> */}
+                <img src={Img}></img>
                 <p>Parle Industries</p>
             </div>
             <div className='client-card'>
-                {/* <img src={Img}></img> */}
+                <img src={Img}></img>
                 <p>Parle Industries</p>
             </div>
             <div className='client-card'>
-                {/* <img src={Img}></img> */}
+                <img src={Img}></img>
                 <p>Parle Industries</p>
             </div>
         </div>
