@@ -5,7 +5,7 @@ import Img from '../../..//assets/frame-341-18.png'
 const BlogPost = () => {
   return (
     <div className='blog-main-container'>
-        <h3>Blog Posts</h3>
+        <h3 className='head-font'>Blog Posts</h3>
         <div className='blog-post-container'>
             <div className='blog-post'>
                 <img src={Img} />

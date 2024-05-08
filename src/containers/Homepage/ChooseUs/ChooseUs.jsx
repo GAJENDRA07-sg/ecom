@@ -4,7 +4,7 @@ import "./ChooseUsStyles.css";
 const ChooseUs = () => {
   return (
     <div className="choose-us-container">
-      <h3>Why Choose Us?</h3>
+      <h3 className="head-font">Why Choose Us?</h3>
       <div className="icon-container">
         <div className="icon-card">
           <div className="icon-div">

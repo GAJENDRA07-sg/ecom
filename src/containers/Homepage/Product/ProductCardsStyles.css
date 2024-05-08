@@ -56,18 +56,22 @@
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+.product-cart-button span{
+    color: aliceblue;
+
+}
 
 
 .product-cart-button div span:nth-child(1) {
     font-weight: 600;
+    color: aliceblue;
 }
 
 .product-cart-button div span:nth-child(2) {
     font-size: 0.8rem;
-    border-right: 1px solid black;
+    border-right: 1px solid aliceblue;
     padding: 0 0.5rem;
-    text-decoration: line-through;
-    color: red;
+    
 }
 
 

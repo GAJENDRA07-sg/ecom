@@ -1,1 +1,26 @@
 // Here you can add other styles
+.card-container{
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.client-card img{
+    width: 400px;
+    height: 200px;
+    object-fit:fill;
+    padding: 20px;
+}
+.head-font{
+    font-size: 2rem !important;
+}
+.product-cart img{
+    object-fit: fill;
+}
+.right img{
+    padding: 20px;
+    height: 500px;
+    width: 550px;
+}
+.container{
+    max-width: 1750px;
+}

@@ -12,6 +12,8 @@ import ChooseUs from './ChooseUs/ChooseUs';
 import OurClient from './OurClient/OurClient';
 import Testimonial from './Testimonial/Testimonial';
 import ProductCard from './Product/ProductCard';
+import slid from './autoslider/auto';
+// import ProductComponent from './prodbtn/prodbtn';
 
 
 function Homepage() {
@@ -19,6 +21,7 @@ function Homepage() {
     <div className="App">
       <Exam></Exam>
       <Section1></Section1>
+      {/* <ProductComponent></ProductComponent> */}
       <ProductCard></ProductCard>
       <OurClient></OurClient>
       <BlogPost></BlogPost>

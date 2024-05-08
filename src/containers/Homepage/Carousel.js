@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import img from "./Carousel/image2/1.jpg"
+import img1 from "./Carousel/image2/2.jpg"
+import img2 from "./Carousel/image2/3.jpg"
 import {
   Carousel,
   CarouselItem,
@@ -6,22 +9,22 @@ import {
   CarouselIndicators,
   CarouselCaption,
 } from 'reactstrap';
-
+{/* <img src={Img} /> */}
 const items = [
   {
-    src: 'https://picsum.photos/id/123/1200/400',
+    src: img,
     altText: 'Slide 1',
     caption: 'Slide 1',
     key: 1,
   },
   {
-    src: 'https://picsum.photos/id/456/1200/400',
+    src: img1,
     altText: 'Slide 2',
     caption: 'Slide 2',
     key: 2,
   },
   {
-    src: 'https://picsum.photos/id/678/1200/400',
+    src: img2,
     altText: 'Slide 3',
     caption: 'Slide 3',
     key: 3,
@@ -56,7 +59,10 @@ function Exam(args) {
         onExited={() => setAnimating(false)}
         key={item.src}
       >
-        <img src={item.src} alt={item.altText} />
+        <img src={item.src} alt={item.altText} 
+          style={{ maxHeight: '600px', width: 'auto' }} // Set max-height and auto width
+          className="d-block w-100"
+        />
         <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}

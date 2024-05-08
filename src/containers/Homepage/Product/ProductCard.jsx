@@ -1,6 +1,10 @@
 import React from "react";
 import "./ProductCardsStyles.css";
-import Img from "../../..//assets/frame-27.png";
+// import Img from "../../..//assets/frame-27.png";
+import Shave from "../../..//assets/prodimg1/Shaving.jpg";
+import Honey from "../../..//assets/prodimg1/honey .jpg";
+import Brush from "../../..//assets/prodimg1/brush.jpg";
+import Key from "../../..//assets/prodimg1/key.jpg";
 
 const ProductCard = () => {
   return (
@@ -12,45 +16,45 @@ const ProductCard = () => {
       </div>
       <div className="product-cart-container">
         <div className="product-cart">
-          <img src={Img}></img>
-          <p>Bamboo Reusable Kitchen Towel Roll-20 Sheets, Single Roll</p>
+          <img src={Brush}></img>
+          <p> Bamboo Brush</p>
           <a className="product-cart-button">
             <div>
-              <span>₹220</span>
-              <span>₹299</span>
+              <span>₹50</span>
+              <span></span>
             </div>
             <span>ADD TO CART</span>
           </a>
         </div>
         <div className="product-cart">
-          <img src={Img}></img>
-          <p>Bamboo Reusable Kitchen Towel Roll-20 Sheets, Single Roll</p>
+          <img src={Honey}></img>
+          <p>Forest Honey 500gm</p>
           <a className="product-cart-button">
             <div>
-              <span>₹220</span>
-              <span>₹299</span>
+              <span>₹399</span>
+              <span></span>
             </div>
             <span>ADD TO CART</span>
           </a>
         </div>
         <div className="product-cart">
-          <img src={Img}></img>
-          <p>Bamboo Reusable Kitchen Towel Roll-20 Sheets, Single Roll</p>
+          <img src={Key}></img>
+          <p>Bamboo Key Ring</p>
           <a className="product-cart-button">
             <div>
-              <span>₹220</span>
-              <span>₹299</span>
+              <span>₹25</span>
+              <span></span>
             </div>
             <span>ADD TO CART</span>
           </a>
         </div>
         <div className="product-cart">
-          <img src={Img}></img>
-          <p>Bamboo Reusable Kitchen Towel Roll-20 Sheets, Single Roll</p>
+          <img src={Shave}></img>
+          <p>Shaving Razor Blade</p>
           <a className="product-cart-button">
             <div>
-              <span>₹220</span>
-              <span>₹299</span>
+              <span>₹150</span>
+              <span></span>
             </div>
             <span>ADD TO CART</span>
           </a>

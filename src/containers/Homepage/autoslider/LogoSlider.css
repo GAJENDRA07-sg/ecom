@@ -1,0 +1,13 @@
+.logo-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .logos-wrapper {
+    display: flex;
+  }
+  
+  .logos-wrapper img {
+    margin-right: 20px; /* Adjust spacing between logos */
+  }
+  
