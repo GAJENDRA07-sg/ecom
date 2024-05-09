@@ -32,6 +32,7 @@
 
 }
 
+
 @media (max-width: 480px) {
     .right img{
         height: 300px;        
@@ -41,5 +42,31 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+    }
+    .res{
+        height: 220px;
+    }
+    .mr-20{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .product-cart-container{
+        gap: 40px;
+    }
+    .product-cart{    
+        box-shadow: 10px 10px 15px 2px #82ce8f;
+    }
+    .product-cart p{
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .logos-wrapper img{
+        height: 150px;
+        width: 150px;
+    }
+    .icon-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
     }
 }

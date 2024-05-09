@@ -18,7 +18,7 @@ const logos = [
 
 const Slider = () => {
   return (
-    <div>
+    <div className='mr-20'>
       <h1 className='center'>Our Clients</h1>
       <LogoSlider logos={logos} />
     </div>
