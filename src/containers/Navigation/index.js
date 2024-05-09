@@ -34,6 +34,7 @@ import { BarsIcon } from '../../components/Common/Icon';
 import MiniBrand from '../../components/Store//MiniBrand';
 import Menu from '../NavigationMenu';
 import Cart from '../Cart';
+import myImage from "../../assets/logo/logo.jpg"
 
 class Navigation extends React.PureComponent {
   componentDidMount() {
@@ -180,7 +181,9 @@ class Navigation extends React.PureComponent {
                   />
                 )}
                 <Link to='/'>
-                  <h1 className='logo'>Origin Tribe</h1>
+                  <h1 className='logo-main'>
+                  <img src={myImage} alt="logo" />
+                  </h1>
                 </Link>
               </div>
             </Col>

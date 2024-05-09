@@ -16,7 +16,6 @@ const logos = [
   { src: myImg5, alt: 'Logo 3' },
 
 
-
 ];
 
 const Slider = () => {
