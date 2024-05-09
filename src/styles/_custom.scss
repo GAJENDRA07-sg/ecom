@@ -4,16 +4,16 @@
     align-items: center;
     gap: 40px;
 }
-.client-card img{
-    width: 400px;
-    height: 200px;
+.logos-wrapper img{
+    width: 250px;
+    height: 250px;
     object-fit:fill;
     padding: 20px;
 }
 .head-font{
     font-size: 2rem !important;
 }
-.product-cart img{
+.logos-wrapper img{
     object-fit: fill;
 }
 .right img{
@@ -23,4 +23,23 @@
 }
 .container{
     max-width: 1750px;
+}
+.center{
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem !important;
+    font-weight: 400;
+
+}
+
+@media (max-width: 480px) {
+    .right img{
+        height: 300px;        
+    }
+    .left button{
+        justify-content: center;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
