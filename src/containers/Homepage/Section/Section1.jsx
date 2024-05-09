@@ -10,7 +10,7 @@ const Section1 = () => {
         <p>
           "Discover Origins Tribe: Your Home for Sustainable Solutions. As dedicated stewards of the earth, we're on a mission to preserve our planet for generations to come. Explore innovative practices and our profound respect for nature as we cultivate eco-friendly solutions. Join us in creating a greener, more resilient world. Together, let's make a lasting impact."
         </p>
-        <button className="" style={{padding: "10px"}}>Button Primary</button>
+        <button className="" style={{padding: "10px", color:'#fff'}}>Explore more</button>
       </div>
       <div className="right">
         <img src={Img} />

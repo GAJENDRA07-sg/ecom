@@ -26,7 +26,7 @@ function Homepage() {
       <ProductCard></ProductCard>
       <Slider></Slider>
       {/* <OurClient></OurClient> */}
-      <BlogPost></BlogPost>
+      {/* <BlogPost></BlogPost> */}
       <ChooseUs></ChooseUs>
       <Testimonial></Testimonial>
     </div>
