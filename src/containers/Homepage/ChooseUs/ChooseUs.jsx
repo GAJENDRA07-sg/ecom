@@ -14,19 +14,19 @@ const ChooseUs = () => {
         </div>
         <div className="icon-card">
           <div className="icon-div">
-          <i class="fa-solid fa-tree"></i>
+          <i class="fa-solid fa-medal"></i>
           </div>
           <p>Quality Assurance</p>
         </div>
         <div className="icon-card">
           <div className="icon-div">
-            <i class="fa-solid fa-seedling"></i>
+            <i class="fa-solid fa-paw"></i>
           </div>
           <p>Cruelty-Free</p>
         </div>
         <div className="icon-card">
           <div className="icon-div">
-          <i class="fa-solid fa-tree"></i>
+          <i class="fa-regular fa-face-smile"></i>
           </div>
           <p>Customer Satisfaction</p>
         </div>
