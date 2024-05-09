@@ -60,8 +60,8 @@ function Exam(args) {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} 
-          style={{ maxHeight: '600px', width: 'auto' }} // Set max-height and auto width
-          className="d-block w-100"
+          style={{ maxHeight: '600px', width: 'auto' }} 
+          className="d-block w-100 res"
         />
         <CarouselCaption
           captionText={item.caption}

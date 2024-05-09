@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from 'react';
-import './LogoSlider.css'; // Import your CSS file
+import './LogoSlider.css';
 
 const LogoSlider = ({ logos }) => {
   const containerRef = useRef(null);
@@ -8,18 +8,17 @@ const LogoSlider = ({ logos }) => {
     const container = containerRef.current;
     const logosWrapper = container.querySelector('.logos-wrapper');
     const logos = logosWrapper.querySelectorAll('img');
-    let totalWidth = 0;
+    const logoWidth = logos[0].offsetWidth; 
+    const totalWidth = logos.length * logoWidth;
+    
 
-    logos.forEach((logo) => {
-      totalWidth += logo.offsetWidth;
-    });
-
-    logosWrapper.style.width = `${totalWidth}px`;
+    const clonedLogos = logosWrapper.cloneNode(true);
+    logosWrapper.appendChild(clonedLogos);
 
     const animation = logosWrapper.animate(
-      [{ transform: 'translateX(0)' }, { transform: `translateX(calc(-${totalWidth}px))` }],
+      [{ transform: 'translateX(0)' }, { transform: `translateX(-${totalWidth}px)` }],
       {
-        duration: 20000, // Adjust the duration as needed (in milliseconds)
+        duration: 20000, 
         iterations: Infinity,
         easing: 'linear'
       }

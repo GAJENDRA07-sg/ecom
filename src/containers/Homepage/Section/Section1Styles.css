@@ -16,19 +16,19 @@
 }
 
 .left h2{
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     color: brown;
 }
 
 .left p{
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-align: justify;
     color: #b35d5d;
 }
 
 .left button{
     background-color: green;
-    color: whitesmoke;
+    color: #fff !important;
 }
 
 button:hover{
@@ -67,6 +67,7 @@ button:hover{
 
     .right img{
         width: 95%;
+        height: 95%;
     }
 
 }

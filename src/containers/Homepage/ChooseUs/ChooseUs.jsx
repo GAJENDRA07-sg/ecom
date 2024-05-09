@@ -10,25 +10,25 @@ const ChooseUs = () => {
           <div className="icon-div">
             <i class="fa-solid fa-seedling"></i>
           </div>
-          <p>2600+ tons tress saved</p>
+          <p>Eco-Friendly</p>
         </div>
         <div className="icon-card">
           <div className="icon-div">
-          <i class="fa-solid fa-tree"></i>
+          <i class="fa-solid fa-medal"></i>
           </div>
-          <p>2600+ tons tress saved</p>
+          <p>Quality Assurance</p>
         </div>
         <div className="icon-card">
           <div className="icon-div">
-            <i class="fa-solid fa-seedling"></i>
+            <i class="fa-solid fa-paw"></i>
           </div>
-          <p>2600+ tons tress saved</p>
+          <p>Cruelty-Free</p>
         </div>
         <div className="icon-card">
           <div className="icon-div">
-          <i class="fa-solid fa-tree"></i>
+          <i class="fa-regular fa-face-smile"></i>
           </div>
-          <p>2600+ tons tress saved</p>
+          <p>Customer Satisfaction</p>
         </div>
       </div>
     </div>
