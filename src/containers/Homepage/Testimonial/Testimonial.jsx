@@ -1,6 +1,8 @@
 import React from "react";
 import "./TestimonialStyles.css";
-import Img from "../../..//assets/ellipse-1.png";
+import Img from "../../..//assets/prodimg/Amit.jpeg";
+import Img1 from "../../..//assets/prodimg/gajju.jpeg";
+import Img2 from "../../..//assets/prodimg/mohit.png";
 
 const Testimonial = () => {
   return (
@@ -21,35 +23,36 @@ const Testimonial = () => {
           <div className="testimonial-upper">
             <img src={Img} />
             <div>
-              <h6>SUJATA GIRDHARI</h6>
-              <p>Banglore</p>
+              <h6>AMIT KUMAR</h6>
+              <p>Bihar</p>
             </div>
           </div>
           <div className="testimonial-lower">
             <p>
-            "Origins Tribe ke products ne meri life ko asaan aur eco-friendly bana diya hai. Inki high-quality aur 
-sustainable items ko use karna mera favorite hobby ban gaya hai!" 
+              "The Origins tribe offers a unique product of good quality in the
+              market. I adore brushes and office diaries."
             </p>
           </div>
         </div>
         <div className="testimonial-card">
           <div className="testimonial-upper">
-            <img src={Img} />
+            <img src={Img2} />
             <div>
               <h6>MOHIT SINGH</h6>
-              <p>Bhuneshwar</p>
+              <p>Odisa</p>
             </div>
           </div>
           <div className="testimonial-lower">
             <p>
-            "Origins Tribe ke zero-waste toothpaste tablets ne meri smile ko aur bhi chamakdar bana diya hai. 
-Ab main apne daanton ki saaf safai ko lekar bilkul tension-free hoon." 
+              "Origins' commitment to sustainable products inspires me to be
+              more eco-friendly. I really love their products and appreciate
+              their on-time delivery. 😊"
             </p>
           </div>
         </div>
         <div className="testimonial-card">
           <div className="testimonial-upper">
-            <img src={Img} />
+            <img src={Img1} />
             <div>
               <h6>GAJENDRA SHARMA</h6>
               <p>Bhopal</p>
@@ -57,8 +60,9 @@ Ab main apne daanton ki saaf safai ko lekar bilkul tension-free hoon."
           </div>
           <div className="testimonial-lower">
             <p>
-            "Origins Tribe ke products use karke mujhe lagta hai ki main apne kuch kadam environment ki 
-raksha ke liye badha raha hoon. Yeh asaan, sasta aur eco-friendly hai."
+              "Origins Tribe ke products use karke mujhe lagta hai ki main apne
+              kuch kadam environment ki raksha ke liye badha raha hoon. Yeh
+              asaan, sasta aur eco-friendly hai."
             </p>
           </div>
         </div>

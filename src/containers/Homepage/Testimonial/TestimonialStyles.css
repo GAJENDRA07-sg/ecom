@@ -8,6 +8,10 @@
     margin-bottom: 1rem;
 }
 
+h6{
+    text-transform: capitalize;
+}
+
 .star-div-parent{
     display: flex;
     flex-direction: column;
@@ -42,7 +46,7 @@
 .testimonial-card{
     width: 30%;
     background-color: #fff;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 0.5rem;
 }
 
@@ -55,10 +59,14 @@
 
 .testimonial-upper img{
     width: 4.8rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .testimonial-lower p{
-    font-size: 0.9rem;;
+    font-size: 0.9rem;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width: 850px) {

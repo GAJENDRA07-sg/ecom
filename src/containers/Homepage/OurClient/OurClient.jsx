@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from '../../..//assets/frame-27.png'
 import myImg from '../../../assets/prodimg/our (2).jpg'
 import myImg1 from '../../../assets/prodimg/our (3).jpg'
 import myImg2 from '../../../assets/prodimg/our (4).jpg'

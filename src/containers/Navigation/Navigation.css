@@ -1,0 +1,21 @@
+.announcement-container {
+    background-color: black;
+    overflow: hidden; /* Ensure the text doesn't overflow */
+  }
+  
+  .announcement {
+    color: white;
+    padding: 10px;
+    white-space: nowrap; /* Prevent wrapping of text */
+    animation: marquee 30s linear infinite; /* Animation */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%); /* Start from right */
+    }
+    100% {
+      transform: translateX(-100%); /* Move to left */
+    }
+  }
+  

@@ -12,8 +12,9 @@ import ChooseUs from './ChooseUs/ChooseUs';
 import OurClient from './OurClient/OurClient';
 import Testimonial from './Testimonial/Testimonial';
 import ProductCard from './Product/ProductCard';
-import slid from './autoslider/auto';
+// import slid from './autoslider/auto';
 // import ProductComponent from './prodbtn/prodbtn';
+import ProductComponent from './ProductComponent/ProductComponent';
 
 
 function Homepage() {

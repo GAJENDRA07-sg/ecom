@@ -20,6 +20,10 @@
     border-bottom: 1px solid black;
 }
 
+.border{
+    border-bottom: 1px solid black;
+}
+
 .product-cart-container {
     display: flex;
     justify-content: space-between;
@@ -35,7 +39,7 @@
     width: 100%;
     height: 80%;
     aspect-ratio: 1/1;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .product-cart p {
